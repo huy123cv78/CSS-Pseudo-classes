@@ -1,0 +1,29 @@
+#oke:hover {
+  color: blueviolet;
+  font-size: 40px;
+}
+.khong:active {
+  color: blanchedalmond;
+  font-size: 20px;
+}
+.click_me:link {
+  color: cornflowerblue;
+}
+/* :visited đổi màu khi nhấn vào */
+.click_me:visited {
+  color: brown;
+}
+/* tô màu khi thẻ không có nội dung và sẽ đổi màu khi có nội dung */
+#div_a:empty {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+#div_a {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 0, 174);
+}
+h2:target {
+  color: blue;
+}
